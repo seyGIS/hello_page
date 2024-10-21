@@ -1,5 +1,5 @@
 ---
-title: "My first page"
+title: " My second page"
 author: "Seydina Issa Laye FALL"
 ---
 
@@ -9,10 +9,9 @@ pacman::p_load(reactable)
 ```
 
 ```{r}
-library(reactable)
-reactable(infert)
+reactable(iris)
 ```
 
 ```{r}
-plot(women)
+plot(iris)
 ```
