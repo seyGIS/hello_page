@@ -1,0 +1,18 @@
+---
+title: "Hello page"
+author: "Seydina Issa Laye"
+---
+
+```{r}
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(reactable)
+```
+
+```{r}
+library(reactable)
+reactable(infert)
+```
+
+```{r}
+plot(women)
+```
